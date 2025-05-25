@@ -51,10 +51,10 @@ The following Nine sanctions sources were used to extract data:
 
 2. **Schema Variations Across Data Sources**
 
-- Out of the nine data sources used, seven shared a similar schema, which included fields like name, alias, nationality, designation
-  sanction_type, and source. These records were unified and loaded into the primary table sanctioned_entities, with references to normalized tables such as aliases, nationalities, etc.(UN,uk,USOFAC-consolidated, USOFAC-SDN switzerland, eur,australia DFAT)
+   - Out of the nine data sources used, seven shared a similar schema, which included fields like name, alias, nationality, designation
+     sanction_type, and source. These records were unified and loaded into the primary table sanctioned_entities, with references to normalized tables such as aliases, nationalities, etc.(UN,uk,USOFAC-consolidated, USOFAC-SDN switzerland, eur,australia DFAT)
 
-- The remaining two sources had different schemas, so they were processed separately and loaded into dedicated tables tailored to their unique structures.(cannada,interpol)
+   - The remaining two sources had different schemas, so they were processed separately and loaded into dedicated tables tailored to their unique structures.(cannada,interpol)
 
 3. **Duplicate Handling**:
 
@@ -170,7 +170,7 @@ To restore the `sanctionwatch.sql` database dump to a MySQL instance, follow the
    - Edit the mysql dump file
      - Find the line
      ```sql
-     USE sanctions;
+     USE sanctions_db;
      ```
      - Replace it with
      ```sql
