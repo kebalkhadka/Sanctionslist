@@ -193,12 +193,21 @@ To restore the `sanctionwatch.sql` database dump to a MySQL instance, follow the
 ## Folder Structure
 
 Sanctions_etl/
-├── cleaned/ # Contains cleaned data files ready for loading
-├── config/ # Contains source.json (data source configurations)
-├── data/ # Raw data files to be parsed (CSV, XML etc.)
-├── extractors/ # Scripts for extracting data from various formats
-├── loaders/ # Scripts for loading transformed data into the MySQL database
-├── output/ # Contains parsed or intermediate output files
-├── transformers/ # Scripts to transform cleaned data into a unified schema
-├── utils/ # Helper utilities such as DB connection functions
-└── etl.py # Main script to run the full ETL pipeline
+
+## ├── cleaned/ # Contains cleaned data files ready for loading
+
+## ├── config/ # Contains source.json (data source configurations)
+
+## ├── data/ # Raw data files to be parsed (CSV, XML etc.)
+
+## ├── extractors/ # Scripts for extracting data from various formats
+
+## ├── loaders/ # Scripts for loading transformed data into the MySQL database
+
+## ├── output/ # Contains parsed or intermediate output files
+
+## ├── transformers/ # Scripts to transform cleaned data into a unified schema
+
+## ├── utils/ # Helper utilities such as DB connection functions
+
+## └── etl.py # Main script to run the full ETL pipeline
