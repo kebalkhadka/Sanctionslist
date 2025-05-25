@@ -129,14 +129,14 @@ Below are the sample query to explore the data:
    HAVING nationality_count > 1
    LIMIT 5;
    ```
-7. ** Identify name of person whose name were recoded in sanction list 1 year ago
-   Cannada_tbl(name,nationalities,date_of_listing,source)**
+7. **Identify name of person whose name were recoded in sanction list 1 year ago**
+   **Cannada_tbl(name,nationalities,date_of_listing,source)**
    ```sql
    select name from cannada_tbl where YEAR(current_date()) - year(date_of_listing) = 1;
    ```
 8. **Interpol_table**
-   **_ interpol_tbl(name,age) and interpol_nationality(nationality,nat_id)_**
-   **_Get all people and their nationalities_**
+   **interpol_tbl(name,age) and interpol_nationality(nationality,nat_id)**
+   **Get all people and their nationalities**
 
    ```sql
    SELECT t.name, t.age, n.nationality
