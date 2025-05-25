@@ -134,7 +134,7 @@ Below are the sample query to explore the data:
    ```sql
    select name from cannada_tbl where YEAR(current_date()) - year(date_of_listing) = 1;
    ```
-8. **Interpol_table**
+8. **Interpol_table:**
    **interpol_tbl(name,age) and interpol_nationality(nationality,nat_id)**
    **Get all people and their nationalities**
 
