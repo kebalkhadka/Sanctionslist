@@ -1,0 +1,67 @@
+[
+  {
+    "path":"data/UN.xml",
+    "format": "xml",
+    "sanction_type": "UN",
+    "parser":"un",
+    "local": true
+  },
+  {
+    "path":"data/uk.xml",
+    "format":"xml",
+    "sanction_type": "uk",
+    "parser":"uk",
+    "local":true
+  },
+  {
+    "path": "data/consolidated.xml",
+    "format": "xml",
+    "sanction_type": "USOFAC-Consolidated",
+    "parser":"ofac",
+    "local": true
+  },
+  {
+    "path": "data/sdn.xml",
+    "format": "xml",
+    "sanction_type": "USOFAC-SDN",
+    "parser":"ofac",
+    "local": true
+  },
+  {
+    "path":"data/seco.xml",
+    "format":"xml",
+    "sanction_type":"Swizerland",
+    "parser":"swiss",
+    "local":true
+  },
+  {
+    "path":"data/europe.xml",
+    "format":"xml",
+    "sanction_type":"Europe",
+    "parser":"eur",
+    "local":true
+  },
+  {
+    "path":"data/Australia.csv",
+    "format":"csv",
+    "sanction_type":"Australia",
+    "parser":"aus",
+    "local":true
+  },
+
+  {
+    "path":"data/cannada.xml",
+    "format":"csv",
+    "sanction_type":"Cannada",
+    "parser":"can",
+    "local":true
+  },
+  {
+  "parser": "interpol",
+  "sanction_type": "Interpol",
+  "path": "cleaned/interpol_cleaned.csv"
+}
+]
+
+  
+  
