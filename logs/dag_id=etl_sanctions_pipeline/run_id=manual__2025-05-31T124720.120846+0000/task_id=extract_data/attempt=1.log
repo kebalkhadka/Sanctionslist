@@ -1,0 +1,20 @@
+{"timestamp":"2025-05-31T12:47:21.559761","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-31T12:47:21.560325","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/sanctions_etl_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-31T12:47:23.687937Z","level":"info","event":"🔍 Parsing: /opt/airflow/data/UN.xml","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:23.688307Z","level":"info","event":"✅ CSV file written: /opt/airflow/output/un_UN_parsed.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:23.688949Z","level":"info","event":"🔍 Parsing: /opt/airflow/data/uk.xml","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:25.789302Z","level":"info","event":"✅ CSV file written: /opt/airflow/output/uk_uk_parsed.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:25.791042Z","level":"info","event":"🔍 Parsing: /opt/airflow/data/consolidated.xml","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:26.076276Z","level":"info","event":"✅ CSV file written: /opt/airflow/output/ofac_USOFAC_Consolidated_parsed.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:26.077090Z","level":"info","event":"🔍 Parsing: /opt/airflow/data/sdn.xml","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:33.079666Z","level":"info","event":"✅ CSV file written: /opt/airflow/output/ofac_USOFAC_SDN_parsed.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:33.080305Z","level":"info","event":"🔍 Parsing: /opt/airflow/data/seco.xml","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:33.128272Z","level":"info","event":"✅ CSV file written: /opt/airflow/output/swiss_Swizerland_parsed.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:33.128960Z","level":"info","event":"🔍 Parsing: /opt/airflow/data/europe.xml","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:34.457964Z","level":"info","event":"✅ CSV file written: /opt/airflow/output/eur_Europe_parsed.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:34.458744Z","level":"info","event":"🔍 Parsing: /opt/airflow/data/Australia.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:35.357154Z","level":"info","event":"✅ CSV file written: /opt/airflow/output/aus_Australia_parsed.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:35.358067Z","level":"info","event":"🔍 Parsing: /opt/airflow/data/cannada.xml","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:35.451172Z","level":"info","event":"✅ CSV file written: /opt/airflow/output/can_Cannada_parsed.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:35.451512Z","level":"info","event":"ℹ️ Interpol data will be loaded directly: /opt/airflow/cleaned/interpol_cleaned.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:35.453828","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

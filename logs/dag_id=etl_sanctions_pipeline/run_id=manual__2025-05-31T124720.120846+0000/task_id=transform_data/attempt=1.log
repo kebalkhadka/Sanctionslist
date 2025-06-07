@@ -1,0 +1,24 @@
+{"timestamp":"2025-05-31T12:47:35.943477","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-31T12:47:35.944045","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/sanctions_etl_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-31T12:47:36.451504Z","level":"info","event":"⚙️ Running transformation: /opt/airflow/transformers/un_transformed.py","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:37.504836Z","level":"info","event":"✅ Cleaned UN data saved to: /opt/airflow/cleaned/un_UN_cleaned.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:37.600098Z","level":"info","event":"⚙️ Running transformation: /opt/airflow/transformers/uk_transformed.py","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:44.937058Z","level":"info","event":"✅ Filled 1385 missing designations.","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:44.937447Z","level":"info","event":"✅ Cleaned UK sanctions saved to: /opt/airflow/cleaned/uk_sanctions_cleaned.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:45.153945Z","level":"info","event":"⚙️ Running transformation: /opt/airflow/transformers/ofac_csn_transformed.py","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:46.026352Z","level":"info","event":"✅ Saved cleaned file to: /opt/airflow/cleaned/ofac_USOFAC_Consolidated_cleaned.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:46.100107Z","level":"info","event":"⚙️ Running transformation: /opt/airflow/transformers/ofac_csn_transformed.py","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:46.929890Z","level":"info","event":"✅ Saved cleaned file to: /opt/airflow/cleaned/ofac_USOFAC_Consolidated_cleaned.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:47.011247Z","level":"info","event":"❌ Cleaned file not found: /opt/airflow/cleaned/ofac_USOFAC_SDN_cleaned.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:47.011814Z","level":"info","event":"⚙️ Running transformation: /opt/airflow/transformers/swiss_transformed.py","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:47.868784Z","level":"info","event":"❌ Input file not found: D:\\BigData\\Sanctions_etl/output/swiss_Swizerland_parsed.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:47.954098Z","level":"info","event":"⚙️ Running transformation: /opt/airflow/transformers/europe_transformed.py","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:48.959633Z","level":"info","event":"✅ Cleaned Europe data saved to: /opt/airflow/cleaned/eur_Europe_cleaned.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:49.035425Z","level":"info","event":"⚙️ Running transformation: /opt/airflow/transformers/australia_transformed.py","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:50.165621Z","level":"info","event":"✅ Cleaned Europe data saved to: /opt/airflow/cleaned/aus_Australia_cleaned.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:50.269889Z","level":"info","event":"⚙️ Running transformation: /opt/airflow/transformers/cannada_transformed.py","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:51.302027Z","level":"info","event":"✅ Saved cleaned file to: /opt/airflow/cleaned/can_cannada_parsed.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:51.444492Z","level":"info","event":"⚙️ Running transformation: /opt/airflow/transformers/interpol_transformed.py","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:52.517450Z","level":"info","event":"✅ Saved cleaned file to: /opt/airflow/cleaned/interpol_red_cleaned.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:52.614797Z","level":"info","event":"❌ Cleaned file not found: /opt/airflow/cleaned/interpol_Interpol_cleaned.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:47:52.615682","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}

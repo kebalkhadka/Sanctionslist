@@ -1,0 +1,12 @@
+{"timestamp":"2025-05-31T12:27:08.680645","level":"info","event":"DAG bundles loaded: dags-folder","logger":"airflow.dag_processing.bundles.manager.DagBundlesManager"}
+{"timestamp":"2025-05-31T12:27:08.682135","level":"info","event":"Filling up the DagBag from /opt/airflow/dags/sanctions_etl_dag.py","logger":"airflow.models.dagbag.DagBag"}
+{"timestamp":"2025-05-31T12:27:12.217877","level":"info","event":"Done. Returned value was: None","logger":"airflow.task.operators.airflow.providers.standard.operators.python.PythonOperator"}
+{"timestamp":"2025-05-31T12:27:16.392792Z","level":"info","event":"❌ Missing or invalid file path: data/UN.xml","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:27:16.394050Z","level":"info","event":"❌ Missing or invalid file path: data/uk.xml","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:27:16.394422Z","level":"info","event":"❌ Missing or invalid file path: data/consolidated.xml","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:27:16.394781Z","level":"info","event":"❌ Missing or invalid file path: data/sdn.xml","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:27:16.395104Z","level":"info","event":"❌ Missing or invalid file path: data/seco.xml","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:27:16.395389Z","level":"info","event":"❌ Missing or invalid file path: data/europe.xml","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:27:16.395650Z","level":"info","event":"❌ Missing or invalid file path: data/Australia.csv","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:27:16.395889Z","level":"info","event":"❌ Missing or invalid file path: data/cannada.xml","chan":"stdout","logger":"task"}
+{"timestamp":"2025-05-31T12:27:16.396142Z","level":"info","event":"ℹ️ Interpol data will be loaded directly: cleaned/interpol_cleaned.csv","chan":"stdout","logger":"task"}

@@ -5,9 +5,9 @@ from dotenv import load_dotenv
 load_dotenv()
 
 db_config = {
-    "host": os.getenv("DB_HOST"),
-    "user": os.getenv("DB_user"),
-    "password": os.getenv("DB_password"),
+    "host":os.getenv("DB_HOST"),
+    "user": os.getenv("DB_USER"),
+    "password": os.getenv("DB_PASSWORD"),
     "database": "sanction_db",
     "port": int(os.getenv("DB_PORT")),
 }
